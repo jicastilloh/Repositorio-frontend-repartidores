@@ -24,7 +24,7 @@ function validator(){
     }
 
     if(resultado == false){
-        alert("Usuario no registrado")
+        console.log("Usuario no registrado");
     }
 
 }

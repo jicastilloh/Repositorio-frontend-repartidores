@@ -4,11 +4,11 @@ const repartidores = [];
 // Generando 5 repartidores utilizando un ciclo "for"
 function generarRepartidores(){
 
-    for(let i = 0; i < 5; i++){
+    for(let i = 0; i < 10; i++){
         let nuevoRepartidor = {
             id: i,
-            usuario:  `usuario${i.toString()}`,
-            clave: `clave${i.toString()}`
+            usuario:  `user${i.toString()}`,
+            clave: `pass${i.toString()}`
         }
         repartidores.push(nuevoRepartidor);
     }
