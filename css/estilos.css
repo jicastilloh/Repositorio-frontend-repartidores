@@ -5,9 +5,9 @@
 
 #principal{
     background-image: url(../img/fondoNuevo.jpg);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: center center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
 }
 
@@ -49,6 +49,13 @@
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
 }
 
-.text-estilos{
-    font-size: small;
+
+@media (max-width: 425px) { 
+    .text-estilos{
+        font-size: small;
+    }
+    
+    .span-hide{
+        display: none;
+    }
 }
